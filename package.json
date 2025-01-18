@@ -1,0 +1,34 @@
+{
+  "name": "s70_weird_sound_productions",
+  "version": "1.0.0",
+  "description": " A sound production project for weird sound effects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S70_Weird_Sound_Productions.git"
+  },
+  "keywords": [
+    "sound",
+    "effects",
+    "music",
+    "production"
+  ],
+  "author": "Gautham Ram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S70_Weird_Sound_Productions/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S70_Weird_Sound_Productions#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
