@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = 3000;
 
-app.get('/ping', (req, res) => {
+app.get('/ping', (req,res) => {
     res.send('pong');
-})
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
