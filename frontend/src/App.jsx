@@ -1,19 +1,15 @@
 import './App.css'
-import Header from './Components/Header'
-import MainContent from './Components/MainContent'
-import Sidebar from './Components/sidebar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LandingPage from './Components/landingPage';
+
 
 function App() {
   return (
-    <>   
-     <div  className='bg-black text-white font-poppins'>
-    <Header />
-    <div className="flex" >
-      <Sidebar/>
-        <MainContent />
-      </div>
-  </div>
-    </>
+  <BrowserRouter>
+  <Routes>
+  <Route path='/' element={<LandingPage/>} />
+  </Routes>
+</BrowserRouter>
   )
 }
 
